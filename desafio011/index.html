@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desafio 11</title>
+    <title>Desafio - 11</title>
     <style>
-        body{
-            background-image: url(imagens/espaco.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-
+        *{
+            margin: 0px;
+            padding: 0px;
         }
-        .astronauta{
-            display: block;
-            margin: auto;
+        body{
+            background: black url('espaco.jpg') center center no-repeat fixed;
+            background-size: cover;
+        }
+        img{
+            position: absolute;
+            left:50%;
+            top: 50%;
+            
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-    <img src="imagens/astronauta.png" class="astronauta" alt="">
+    <img src="astronauta.png" alt="Astronalta">
 </body>
 </html>
